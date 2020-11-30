@@ -1,0 +1,33 @@
+.switcher {
+  height: 100%;
+}
+
+.component-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.first-component {
+  margin-left: 40px;
+}
+
+.component-list__name {
+  margin-right: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  width: 100%;
+  color: black;
+  background-color: black;
+  margin: 0 0;
+}
+
+.component-wrapper {
+  height: 100%;
+}
